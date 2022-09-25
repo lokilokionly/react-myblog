@@ -1,6 +1,7 @@
 import TestRoute from './Components/TestRoute/TestRoute';
 import CrashPage from './page/CrashPage/CrashPage.js'
 import MainPage from './page/MainPage/MainPage.js'
+import NotePage from './page/NotePage/NotePage';
 
 import { Layout } from './Components/Layout/Layout.js'
 
@@ -13,8 +14,9 @@ function App() {
       <Routes>
           <Route path='/' element={<Layout/>}>
               <Route index element={<MainPage />}></Route>
-              <Route path='testroute' element={<TestRoute />}></Route>
+              <Route path='notepage' element={<NotePage />}></Route>
               <Route path='*' element={<CrashPage />}></Route>
+            
           </Route>
       </Routes>
     </div>

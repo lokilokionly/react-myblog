@@ -7,10 +7,10 @@ function Layout() {
             <header className=' w-full h-[53px] border-b-2 '>
                 <HeaderC />                
             </header>
-            <main className='w-[937px] bg-slate-700 mx-auto border-x-2'>
+            <main className='w-[937px]  mx-auto border-x-2 bg-[#cfd0d6]'>
                 <Outlet/>
             </main>
-            <footer className='w-[937px] bg-slate-700 mx-auto border-x-2 border-t-2'>
+            <footer className='w-[937px]  mx-auto border-x-2 border-t-2 '>
                 <FooterC/>
             </footer>
         </main>

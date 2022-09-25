@@ -11,6 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+/* fonts */
+@font-face {
+  font-family:"Gentium Book Plus Italic";
+  src: url(./fonts/GentiumBookPlus-Italic.ttf);
+}
+/* fonts */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
